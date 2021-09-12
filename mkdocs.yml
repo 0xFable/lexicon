@@ -1,0 +1,21 @@
+# Project information
+site_name: Lexicon
+site_author: 0xFable
+
+# Repository
+repo_name: lexicon
+repo_url: https://github.com/0xfable/lexicon
+edit_uri: edit/master/docs
+
+plugins:
+- search
+- literate-nav:
+    nav_file: SUMMARY.md
+
+# Theme
+theme:
+  name: "material"
+  palette:
+    scheme: default
+    primary: black
+    accent: blue
